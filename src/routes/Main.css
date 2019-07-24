@@ -1,0 +1,27 @@
+#main section p {
+  margin-top: 1em;
+  line-height: 1.2em;
+}
+#main section h3 {
+  font-size: 1.5em;
+}
+#main section.wrapper.style1 p {
+  color: #000000bb;
+}
+#main section.wrapper.style2 p {
+  color: #ffffffbb;
+}
+#main section.wrapper.style2 p a {
+  color: #ffffffbb;
+  font-weight: bold;
+}
+#main section.wrapper.style2 p a:hover {
+  color: white;
+}
+#main section.wrapper.style1 p a {
+  color: #000000bb;
+  font-weight: bold;
+}
+#main section.wrapper.style1 p a:hover {
+  color: black;
+}

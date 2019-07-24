@@ -1,0 +1,154 @@
+.Header {
+  background: rgba(0, 0, 0, 0.75);
+  color: #aed6f1;
+  cursor: default;
+  height: 3.25em;
+  left: 0;
+  line-height: 3.25em;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+}
+
+.Header > .logo {
+  display: inline-block;
+  height: inherit;
+  left: 1.25em;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+
+.Header > .logo a {
+  font-size: 1.25em;
+  color: #3498db;
+}
+
+.Header > .logo a:hover {
+  color: #3498db;
+}
+
+.Header > .logo span {
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.Header > a {
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  display: inline-block;
+  padding: 0 0.75em;
+  color: inherit;
+  text-decoration: none;
+  color: #fff;
+}
+
+.Header > a:hover {
+  color: #3498db;
+}
+
+.Header > a[href='#menu'] {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Header > a[href='#menu']:before {
+  content: '';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+.Header > a[href='#menu']:before {
+  margin: 0 0.5em 0 0;
+}
+
+.Header > a + a[href='#menu']:last-child {
+  border-left: solid 1px rgba(255, 255, 255, 0.25);
+  padding-left: 1.25em;
+  margin-left: 0.5em;
+}
+
+.Header > a:last-child {
+  padding-right: 1.25em;
+}
+
+@media screen and (max-width: 736px) {
+  .Header > a {
+    padding: 0 0.5em;
+  }
+
+  .Header > a + a[href='#menu']:last-child {
+    padding-left: 1em;
+    margin-left: 0.25em;
+  }
+
+  .Header > a:last-child {
+    padding-right: 1em;
+  }
+}
+
+.Header.reveal {
+  -moz-animation: reveal-header 0.5s ease;
+  -webkit-animation: reveal-header 0.5s ease;
+  -ms-animation: reveal-header 0.5s ease;
+  animation: reveal-header 0.5s ease;
+}
+
+.App:not(.scrolled) .Header {
+  -moz-animation: none;
+  -webkit-animation: none;
+  -ms-animation: none;
+  animation: none;
+  background-color: transparent;
+  box-shadow: none;
+  overflow: hidden;
+  position: absolute;
+  top: 1.5em;
+}
+
+.App:not(.scrolled) .Header h1 {
+  left: 2.5em;
+}
+
+.App:not(.scrolled) .Header nav {
+  right: 2.5em;
+}
+
+@media screen and (max-width: 980px) {
+  body.subpage {
+    padding-top: 44px;
+  }
+
+  .Header {
+    height: 44px;
+    line-height: 44px;
+  }
+
+  .Header > h1 {
+    left: 1em;
+  }
+
+  .Header > h1 a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Header {
+    min-width: 320px;
+    font-size: 0.8em;
+  }
+  .Header > .logo a {
+    font-size: 1em !important;
+  }
+}
