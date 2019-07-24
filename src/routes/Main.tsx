@@ -185,7 +185,7 @@ export default function Main() {
                 and used by anyone else, but the name is not free-domain, and
                 neither are any custom art-assets. The difference between
                 between code and art is that the former is simply an expression
-                of mathematics -- WHICH CANNOT BE OWNED BY ANY MAN -- and the
+                of mathematics -- WHICH CANNOT BE OWNED BY ANYONE -- and the
                 latter is an expression of personal feeling, be it instinct or
                 intuition. I believe intellectual property to be a thoroughly
                 assinine concept, born out of pure greed, and will never take
