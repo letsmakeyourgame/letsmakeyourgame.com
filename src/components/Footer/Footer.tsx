@@ -1,9 +1,8 @@
 import * as React from 'react';
 import cx from 'classnames';
 import { FontAwesomeIcon as Icon } from '@fortawesome/react-fontawesome';
-import { faSlash, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faCircle } from '@fortawesome/free-regular-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import './Footer.css';
 
@@ -17,9 +16,23 @@ export default function Footer({ className }: IProps) {
       <div className="copyright">
         <ul className="icons">
           <li>
-            <a href="https://twitter.com/IMakeYourGame">
+            <a
+              href="https://twitter.com/IMakeYourGame"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Icon icon={faTwitter} />
               <span className="label">@IMakeYourGame</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/letsmakeyourgame/letsmakeyourgame.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon icon={faGithub} />
+              <span className="label">LetsMakeYourGame.com</span>
             </a>
           </li>
           <li>
