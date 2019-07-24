@@ -1,7 +1,11 @@
 import * as React from 'react';
+import ReactGA from 'react-ga';
 import cx from 'classnames';
 import { Banner, Footer, Header } from './components';
 import { Main } from './routes';
+
+ReactGA.initialize('UA-122935696-3');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const SCROLL_TOP_THRESHOLD = 25;
 
