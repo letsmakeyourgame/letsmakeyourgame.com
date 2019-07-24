@@ -403,7 +403,7 @@ export default function Main() {
       <section id="contact" className="wrapper style1">
         <div className="inner">
           <header className="align-center">
-            <h2>Reach Out</h2>
+            <h3>Reach Out</h3>
             <p>
               Please contact me with your brief game pitch or any questions.
             </p>
