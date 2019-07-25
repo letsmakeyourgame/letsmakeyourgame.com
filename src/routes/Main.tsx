@@ -68,8 +68,8 @@ export default function Main() {
                 game. Whatever the case, if it can become a videogame, I want to
                 provide my skillset to make it happen. Not knowing how to
                 program shouldn't prevent your great idea from getting made!
-                But, please, before submitting your game pitch, please be sure
-                to read all the details so there are no surprises.
+                But, please, before submitting your game pitch, be sure to read
+                all the details so there are no surprises.
               </p>
               <p>
                 Only one project will be active at any given time, and chosen
