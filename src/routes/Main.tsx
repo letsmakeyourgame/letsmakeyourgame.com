@@ -188,8 +188,8 @@ export default function Main() {
                 of mathematics -- WHICH CANNOT BE OWNED BY ANYONE -- and the
                 latter is an expression of personal feeling, be it instinct or
                 intuition. I believe intellectual property to be a thoroughly
-                assinine concept, born out of pure greed, and will never take
-                any measure to enforce it. However, digital or not, property is
+                asinine concept, born out of pure greed, and will never take any
+                measure to enforce it. However, digital or not, property is
                 property, and thus just as copying a file called "DieHard.mkv"
                 is not the same as recreating the movie from casting to editing,
                 neither is copying art assets the same as recreating them. If
