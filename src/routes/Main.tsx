@@ -119,7 +119,7 @@ export default function Main() {
               </p>
               <p>
                 As I make a comfortable living, this is not a financial
-                endevour, but a creative one. If you're looking to get rich from
+                endeavor, but a creative one. If you're looking to get rich from
                 your game idea, this project is not for you. I will never charge
                 for my time, only in certain circumstances will I charge the
                 cost for resources necessary to the development or publishing
@@ -131,7 +131,7 @@ export default function Main() {
               </p>
               <p>
                 The game itself must be non-profit. Again, this is a creative
-                endevour, not a financial one. I am not interested in the stress
+                endeavor, not a financial one. I am not interested in the stress
                 that comes with being responsible for your financial well-being,
                 so I'm cutting the Gordian knot by enforcing a no-profit rule on
                 the project. Should the game require certain expenses to
