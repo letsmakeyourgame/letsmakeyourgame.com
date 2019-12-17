@@ -44,13 +44,15 @@ export default function Main() {
                 capable of producing quality software for whatever platform best
                 meets the requirements.
               </p>
-              <p>
+              {/*
+                <p>
                 In my spare time, when I'm not writing and re-writing game
                 engines, I'm often reading history and philosophy, or out
                 cooking over an fire pit (the way God intended). My favorite
                 pastime is sitting outside with friends, discussing everything
                 from physics to religious theology over scotch and a cigar.
               </p>
+              */}
             </div>
           </div>
         </div>
@@ -67,9 +69,9 @@ export default function Main() {
                 your game idea as a videogame, perhaps it's a board or card
                 game. Whatever the case, if it can become a videogame, I want to
                 provide my skillset to make it happen. Not knowing how to
-                program shouldn't prevent your great idea from getting made!
-                But, please, before submitting your game pitch, be sure to read
-                all the details so there are no surprises.
+                program shouldn't prevent your great idea from getting made! But
+                please, before submitting your game pitch, be sure to read all
+                the details so there are no surprises.
               </p>
               <p>
                 Only one project will be active at any given time, and chosen
@@ -86,9 +88,9 @@ export default function Main() {
                 it easy, enjoy the process, and not allow it to be a source of
                 anxiety or stress. That said, we will set up loose timelines and
                 milestones so we each have an idea what to (roughly) expect as
-                we go on, and so there are no major surprises. This also helps
-                maintain structure in its development, so too much time doesn't
-                get spent on something that ultimately isn't even used in the
+                we go on, so there are no major surprises. This also helps
+                maintain structure in its development preventing too much time
+                being spent on something that ultimately isn't even used in the
                 final product.
               </p>
               <p>
@@ -121,7 +123,7 @@ export default function Main() {
                 As I make a comfortable living, this is not a financial
                 endeavor, but a creative one. If you're looking to get rich from
                 your game idea, this project is not for you. I will never charge
-                for my time, only in certain circumstances will I charge the
+                for my time and only in certain circumstances will I charge the
                 cost for resources necessary to the development or publishing
                 (e.g., server hosting, website registration, etc.), but will
                 always make an effort to set you up with the accounts and
@@ -174,10 +176,10 @@ export default function Main() {
                 multiplayer environment, as security is always dependent on
                 environment keys, which are not stored in the source code.
                 Depending on closed-source as an anti-cheat measure is called
-                "security through obfuscation", and any network engineer will
-                tell you that such a measure is not only ineffective at stoping
-                malicious attacks, but can create more vulnerabilities since it
-                can't be as widely reviewed.
+                <em>security through obfuscation</em>, and any network engineer
+                will tell you that such a measure is not only ineffective at
+                stoping malicious attacks, but can create more vulnerabilities
+                since it can't be as widely reviewed.
               </p>
               <p>
                 Nor does open source mean anyone can steal your game. Yes, all
@@ -186,16 +188,16 @@ export default function Main() {
                 neither are any custom art-assets. The difference between
                 between code and art is that the former is simply an expression
                 of mathematics -- WHICH CANNOT BE OWNED BY ANYONE -- and the
-                latter is an expression of personal feeling, be it instinct or
-                intuition. I believe intellectual property to be a thoroughly
-                asinine concept, born out of pure greed, and will never take any
-                measure to enforce it. However, digital or not, property is
-                property, and thus just as copying a file called "DieHard.mkv"
-                is not the same as recreating the movie from casting to editing,
-                neither is copying art assets the same as recreating them. If
-                someone wants to go through the trouble of copying the idea
-                fully and recreating every asset necessary, then by all means,
-                everything but the name is theirs.
+                latter, in this case, is an expression of personal feeling. I
+                believe intellectual property to be a thoroughly asinine
+                concept, born out of pure greed, and will never take any measure
+                to enforce it. However, digital or not, property is property,
+                and thus just as copying a file called "DieHard.mkv" is not the
+                same as recreating the movie from casting to editing, neither is
+                copying art assets the same as recreating them. If someone wants
+                to go through the trouble of copying the idea fully and
+                recreating every asset necessary, then by all means, everything
+                but the name is theirs.
               </p>
               <p>
                 <strong>Artwork &amp; Digital Assets</strong>
@@ -209,7 +211,7 @@ export default function Main() {
                 animations, etc., etc.), it will be entirely up to you to
                 provide them. There are several resources for free game assets
                 that may suit the project, so if artwork isn't as important to
-                the project, there are free solutions to you having to be an
+                the project, there are free alternatives to you having to be an
                 artist yourself.
               </p>
               <p>
@@ -217,10 +219,10 @@ export default function Main() {
                 party through you), you will be the sole owner (or licensee) of
                 the assets used. The exact implementation may change if it
                 doesn't meet the requirements for the project, but in most cases
-                they will likely be stored on Amazon S3 cloud storage, in an
-                account owned by you (that I will set up for you, if needed).
-                Should the project dissolve, you will retain full control over
-                all of the assets.
+                they will be stored on Amazon S3 cloud storage, in an account
+                owned by you (that I will set up for you, if needed). Should the
+                project dissolve, you will retain full control over all of the
+                assets.
               </p>
             </div>
           </div>
@@ -263,7 +265,7 @@ export default function Main() {
                 Your idea. You can email or message me on twitter (
                 <a href="#contact">see below</a>) with your elevator pitch. For
                 those unfamiliar with the term, it essentially means the
-                shrotened version of your idea -- one you'd be able to tell me
+                shortened version of your idea -- one you'd be able to tell me
                 during a short elevator ride. Keep it brief; keep it simple. If
                 I have questions, I'll ask them. What I'm looking for is a good
                 concept, from someone who is passionate about it, and willing to
@@ -306,13 +308,13 @@ export default function Main() {
                 <strong>Are there any genres that you won't do?</strong>
               </p>
               <p>
-                Yes. I won't work on anything X-rated (i.e., porn games),
-                anything that glorifies antisocial behavior (think Grand Theft
-                Auto), games with in-game currency purchased with real-world
-                money (i.e., freemium / pay-to-win games), or MMORPGs. The
-                latter is not because I have anything against them, but because
-                they simply aren't practical for an indie project, and are very
-                commonly pursued.
+                Yes. I won't work on anything X-rated (i.e., pornographic
+                games), anything that glorifies antisocial behavior (think Grand
+                Theft Auto), games with in-game currency purchased with
+                real-world money (i.e., freemium / pay-to-win games), or
+                MMORPGs. The latter is not because I have anything against them,
+                but because they simply aren't practical for an indie project,
+                and are very commonly pursued.
               </p>
               <p>
                 <strong>Will I get rich?</strong>
@@ -382,7 +384,7 @@ export default function Main() {
               </p>
               <p>
                 As I value my privacy, I prefer not to disclose my name or
-                details publicly, but will to you if we work together. Besides,
+                details publicly, but may to you if we work together. Besides,
                 given the nature of the internet, it's not that hard to find out
                 for yourself with a little digging. But to most (hopefully) it
                 will be of little consequence. Logic dictates that the message
